@@ -1,0 +1,86 @@
+<?php $__env->startSection('content'); ?>
+<center>
+<?php echo Form::open(['route'=>'status.store']); ?>
+
+  <div>
+
+       <?php echo Form::label('file_number','File Number:'); ?>
+
+
+       <?php echo Form::input('text','file_number'); ?>
+
+
+</div>
+
+<div>
+
+       <?php echo Form::label('diagnosis','Diagnosis:'); ?>
+
+
+       <?php echo Form::input('text','diagnosis'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('prescription','Prescription:'); ?>
+
+
+       <?php echo Form::input('text','prescription'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('How_am_fearing','How Am Fearing:'); ?>
+
+
+       <?php echo Form::input('text','How_am_fearing'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('patient_phone_number','Patients Phone Number:'); ?>
+
+
+       <?php echo Form::input('text','patient_phone_number'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('email','Email:'); ?>
+
+
+       <?php echo Form::input('text','prescription'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('mail_text','Text To send:'); ?>
+
+
+       <?php echo Form::input('text','mail_text'); ?>
+
+
+</div>
+<div>
+        <?php echo Form::submit('Follow Up'); ?>
+
+
+</div>
+
+<?php echo Form::close(); ?>
+
+
+
+</center>
+
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('defaults.masterpage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

@@ -1,0 +1,52 @@
+<html>
+<head>
+	          <?php echo HTML::style('css/main.css'); ?>
+
+
+    <meta name="keywords" content="Moi Teaching And Referal Hospital ,Mtrh , moi teaching and referal hospital online system ,eldoret,ELDORET,Hospital In Eldoret"/>
+	<meta name="description" content="Online System For Moi Teaching And Referal Hospital "/>
+	<meta name="description" content="Hospital online system for moi teaching and referal hospital "/>
+	<meta name="description" content="Online System For Mtrh "/>
+	<meta http-equiv="refresh" content="10000" />
+    <meta http-equiv="author" content=" Dennis Luke"/>
+     
+	       <img src="<?php echo URL::asset('images/moi.png'); ?>" width="100%" height="10%"id="header-banner">
+	    
+	    <div id="header-content">
+	      
+	       <ul class="line-menu" id="header-shortcuts">
+	       <a href="Welcome" ><img src="<?php echo URL::asset('images/home.png'); ?>"width="30" height="34" ></a> 
+	        <li><a href="Welcome"><input type="submit" value="Welcome" /></a></li>
+	        <li><a href="file"><input type="submit" value="Create A Fill" /></a></li>
+	        <li><a href="booking"><input type="submit" value="Book An Appoindmend" /></a></li>
+	        <li><a href="consultation"><input type="submit" value="consultation" /></a></li>
+	        <li><a href="lab"><input type="submit" value="lab" /></a></li>
+	        <li><a href="diagnosis"><input type="submit" value="diagnosis" /></a></li>
+	        <li><a href="payment"><input type="submit" value="payments" /></a></li>
+	        <li><a href="pharmacy"><input type="submit" value="pharmacy" /></a></li>
+	        <li><a href="admission"><input type="submit" value="admition" /></a></li>
+	        <li><a href="info"><input type="submit" value="patient's Info" /></a></li>
+	        <li><a href="status"><input type="submit" value="status" /></a></li>
+	        <li><a href="Welcome"><input type="submit" value="logout" /></a></li>
+	       </ul>
+	       <!-- This is the Header-->
+	              
+	    </div>
+	    <div id="header-1content">
+
+        </div>
+<?php echo $__env->yieldContent('header'); ?>
+
+
+
+</head>
+<body>
+
+<?php echo $__env->yieldContent('content'); ?>
+
+
+<?php echo $__env->yieldContent('footer'); ?>
+
+
+</body>
+</html>

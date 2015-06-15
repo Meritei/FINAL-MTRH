@@ -1,0 +1,40 @@
+<?php $__env->startSection('content'); ?>
+<center>
+<?php echo Form::open(['route'=>'file.store']); ?>
+
+  <div>
+
+       <?php echo Form::label('file_number','File Number:'); ?>
+
+
+       <?php echo Form::input('text','file_number'); ?>
+
+
+</div>
+<div>
+
+       <?php echo Form::label('name','Name:'); ?>
+
+
+       <?php echo Form::input('text','name'); ?>
+
+
+</div>
+<div>
+        <?php echo Form::submit('Create A New File'); ?>
+
+
+</div>
+
+<?php echo Form::close(); ?>
+
+
+
+</center>
+
+
+
+
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('defaults.masterpage', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

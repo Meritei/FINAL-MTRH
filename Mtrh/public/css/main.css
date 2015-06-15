@@ -1,0 +1,1530 @@
+
+* {
+    margin: 0;
+    padding: 2;
+
+}
+body {
+    background-color: 000033;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+//index pages
+
+
+#tabler{
+    border-collapse:collapse;
+    width:1000px;
+    border:1px;
+    padding:2px;
+    empty-cells:hide;
+    border-style:solid;
+    border-width:0px;
+    border-color:;
+    border-collapse:;
+    border-spacing:10px 50px;
+    border-style:outset; 
+    margin:auto;
+    text-align:center;
+    word-spacing:2cm;
+    color:000000; 
+
+}
+ //cover index pages
+
+#cover {
+    display: webkit-flex;
+    border:solid 2px;
+    border-color: #C0C0C0;
+    border-radius:8px; 
+    background-image: <img style="border:0px; width:1000px ;height:600px;" src="{{URL::asset('images/table.png')}}"> ;
+    background-repeat:repeat; 
+    width:1000px; 
+    height:600px;
+    background-color:000000;
+    border-style:groove; 
+    position:center;
+
+
+    }
+
+#covera {
+    display: webkit-flex;
+    border:solid 2px;
+    border-color: #C0C0C0;
+    border-radius:8px; 
+    background-image: <img style="border:0px; width:1000px ;height:600px;" src="{{URL::asset('images/triangles.jpg')}}"> ;
+    background-repeat:repeat; 
+    width:1000px; 
+    height:600px;
+    background-color:000000;
+    border-style:groove; 
+    position:center;
+
+
+    }
+
+#results
+{
+
+    display: webkit-flex;
+    border:solid 2px;
+    border-color: ccccff;
+    border-radius:8px; 
+    background-color: 009933;
+    background-repeat:repeat; 
+    width:300px; 
+    height:50px;
+    border-style:outset; 
+    position:center;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+a {
+    color: #377ac8;
+    font-weight: bold;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #377ac8;
+    color: #fff;
+    display: inline;
+}
+ul li {
+    list-style-type: none;
+    padding-left: 15px;
+}
+* html li {
+    height: auto;
+}
+li a {
+    color: black;
+    font-weight: italic;
+}
+li span {
+    color: #888888;
+    font-weight: normal;
+}
+a img {
+    border: medium none;
+}
+object, embed {
+    z-index: 1;
+}
+form table th {
+    text-align: left;
+}
+form table th, form table td {
+    vertical-align: top;
+}
+form fieldset div {
+    overflow: hidden;
+    width: 100%;
+}
+textarea {
+    overflow: auto;
+}
+#wrapper {
+    
+    margin: 0 auto 10px;
+    padding: 10px 0;
+    position: relative;
+    width: 990px;
+    border-radius: 30px;
+}
+#faux {
+    margin-bottom: 0;
+    width: 100%;
+}
+#header {
+    border-width: 2px;
+    color: #333;
+    margin: 0 10px 5px;
+    position: relative;
+    width: 968px;
+}
+#header-shortcuts {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: auto;
+}
+#header-shortcuts li {
+    width :100px; 
+    background-position: 1px 4px;
+    background-repeat: no-repeat;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 6px 0 10px;
+    text-transform: uppercase;
+}
+#header-shortcuts li a {
+    color: #90b6e7;
+    float: none;
+}
+
+#header-content {
+    
+    border: 1px solid #fff;
+    height: 50px;
+    position: relative;
+    box-shadow: 3;
+    
+    background-color:#C0C0C0; 
+}
+
+#header-1content {
+    
+    border: 1px solid #fff;
+    height: 20px;
+    position: relative;
+    box-shadow: 3;
+    
+    background-color:00FF00; 
+}
+
+
+
+
+
+
+#header-content img#header-banner {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#header-home-link {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: auto;
+}
+#header-home-link img {
+    padding-left: 7px;
+    padding-top: 8px;
+
+}
+body.lang-fr #header-home-link img {
+    padding-left: 15px;
+    padding-top: 16px;
+}
+body.lang-en #header-home-link img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#header-search {
+    bottom: 0;
+    display: block;
+    float: right;
+    margin-bottom: 4px;
+    position: absolute;
+    right: 0;
+    width: 215px;
+}
+#header-search .input-image, #header-search .input-text {
+    display: block;
+    float: left;
+}
+#header-search .input-text {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    font-size: 11px;
+    height: 15px;
+    overflow: hidden;
+    padding: 3px 0 0 3px;
+    vertical-align: bottom;
+    width: 155px;
+}
+#search-textbox {
+    background-color: #fff;
+    border: 4px solid green;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 165px;
+    
+
+}
+#search-textbox label {
+
+    color: #aaaaaa;
+    left: 0;
+    line-height: 20px;
+    padding-left: 4px;
+    position: absolute;
+}
+#header-search .input-image {
+    margin-top: 1px;
+    text-align: center;
+}
+#header-breaking-news {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: url("http://www.smhc.qc.ca/_media/en/bg_breaking_news.gif");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    border-color: #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+}
+#header-breaking-news p {
+    line-height: 30px;
+    margin: 0 5px;
+}
+#header-breaking-news a {
+    color: #3978cb;
+}
+#navigation {
+    color: #333333;
+    margin: 0 10px 5px;
+    width: 968px;
+}
+#menu {
+    border-width: 1px;
+    height: 31px;
+    padding-left: 1px;
+    position: relative;
+    z-index: 6;
+}
+#menu li {
+    float: left;
+    height: 29px;
+    margin: 1px 0 0;
+    padding: 0;
+    position: relative;
+}
+* html #menu li {
+    padding: 0;
+}
+#menu li ul {
+    display: none;
+}
+#menu li, #menu li a {
+    background-repeat: no-repeat;
+    height: 29px;
+}
+#menu li a:hover {
+    background-color: transparent;
+}
+#menu li a {
+    display: block;
+    height: 29px;
+    overflow: hidden;
+    text-indent: -100em;
+}
+#menu li ul a {
+    height: auto;
+    width: 159px !important;
+}
+#menu li a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/nav_off.gif");
+}
+#menu li a:hover, #menu li.current a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/nav_on.gif");
+}
+#menu li.current li {
+    background-image: none;
+}
+#menu ul li a, #menu ul li a:hover {
+    background-image: none;
+}
+#menu.extranet {
+    width: 967px;
+}
+#menu.extranet li a, .lang-fr #menu.extranet li a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/extranet/nav_off.png");
+    width: 322px;
+}
+#menu.extranet li a:hover, #menu.extranet li.current a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/extranet/nav_on.png");
+}
+.lang-fr #menu li.p_qui-sommes-nous a {
+    background-position: 0 center;
+    width: 135px;
+}
+#menu li.p_about a {
+    background-position: 0 center;
+    width: 105px;
+}
+.lang-fr #menu li.p_departements-et-programmes a {
+    background-position: -135px center;
+    width: 208px;
+}
+#menu .p_departments-programs a {
+    background-position: -105px center;
+    width: 223px;
+}
+.lang-fr #menu li.p_recherche a {
+    background-position: -343px center;
+    width: 85px;
+}
+#menu .p_research a {
+    background-position: -328px center;
+    width: 102px;
+}
+.lang-fr #menu li.p_formation a {
+    background-position: -428px center;
+    width: 85px;
+}
+#menu .p_education a {
+    background-position: -430px center;
+    width: 112px;
+}
+.lang-fr #menu li.p_developpement-du-campus a {
+    background-position: -513px center;
+    width: 187px;
+}
+#menu .p_campus-development a {
+    background-position: -542px center;
+    width: 190px;
+}
+.lang-fr #menu li.p_carrieres a {
+    background-position: -700px center;
+    width: 80px;
+}
+#menu .p_careers a {
+    background-position: -732px center;
+    width: 93px;
+}
+.lang-fr #menu .p_actualites-et-evenements a {
+    background-position: -780px center;
+    width: 184px;
+}
+#menu .p_news-events a {
+    background-position: -825px center;
+    width: 140px;
+}
+#menu li.p_extranet__bod-meetings a {
+    background-position: 0 center;
+}
+#menu li.p_extranet__board-member-info a {
+    background-position: -322px center;
+}
+#menu li.p_extranet__board-committees a {
+    background-position: -644px center;
+}
+#menu .subnav {
+    top: 30px;
+}
+#menu .subnav, #menu .subsubnav, #menu .subsubsubnav {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4f4f4f;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0 0 1px;
+    display: none;
+    position: absolute;
+    width: 180px;
+}
+#menu li a ul li a {
+    width: 180px !important;
+}
+#menu .subnav li, #menu .subsubnav li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4f4f4f;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    float: none;
+    height: auto !important;
+    margin: 0;
+    padding: 0;
+}
+#menu .subnav li a, #menu .subsubnav li a {
+    background: none repeat scroll 0 0 white;
+    color: #000;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    height: auto;
+    padding: 10px;
+    text-indent: 0;
+}
+#menu .subnav li a:hover, #menu .subsubnav li {
+    background: none repeat scroll 0 0 #dadada;
+    color: #000;
+}
+#menu .subsubnav {
+    left: 100% !important;
+    top: -1px !important;
+}
+#menu .subsubsubnav {
+    left: 100% !important;
+    top: -1px !important;
+}
+#menu .far-right, #menu .far-right {
+    left: -101% !important;
+    top: -1px !important;
+}
+#breadcrumbs {
+    color: #333333;
+    font-size: 11px;
+    height: 25px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0 10px;
+}
+#breadcrumbs a {
+    color: #3978cb;
+    float: none;
+    font-family: verdana;
+    font-weight: normal;
+}
+#breadcrumbs a:hover {
+    background-color: #3978cb;
+    color: #fff;
+}
+#leftcolumn {
+    color: #333;
+    display: inline;
+    float: left;
+    margin: 0 10px 50px;
+    padding: 0;
+    width: 160px;
+}
+body.homepage #leftcolumn {
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 5;
+}
+#left-column-footer-banner {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    width: 160px;
+}
+#left-menu {
+    border-width: 1px 1px 0 !important;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 4;
+}
+#left-menu li {
+    border-width: 0 0 1px !important;
+    height: 57px;
+    padding: 0;
+    position: relative;
+}
+#left-menu li ul {
+    display: none;
+}
+#left-menu li, #left-menu li a {
+    background-repeat: no-repeat;
+    height: 57px;
+}
+#left-menu li a:hover {
+    background-color: transparent;
+}
+#left-menu li a {
+    display: block;
+    height: 56px;
+    overflow: hidden;
+    text-indent: -100em;
+}
+#left-menu li ul a {
+    height: auto;
+}
+#left-menu li a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/nav_left_off.jpg");
+    background-repeat: no-repeat;
+    width: 158px;
+}
+#left-menu li a:hover, #left-menu li.current a {
+    background-image: url("http://www.smhc.qc.ca/_media/en/nav_left_on.jpg");
+}
+.lang-fr #left-menu .p_patients-et-visiteurs a, #left-menu .p_patients-visitors a {
+    background-position: -1px -1px;
+}
+.lang-fr #left-menu .p_medecins a, #left-menu .p_physicians a {
+    background-position: -1px -60px;
+}
+.lang-fr #left-menu .p_soins-infirmiers a, #left-menu .p_nursing a {
+    background-position: -1px -119px;
+}
+.lang-fr #left-menu .p_benevoles a, #left-menu .p_volunteers a {
+    background-position: -1px -178px;
+}
+.lang-fr #left-menu .p_repertoire-des-cliniques-et-des-services a, #left-menu .p_directory-of-clinics-services a {
+    background-position: -1px -237px;
+}
+#left-menu .subnav {
+    left: 100% !important;
+    top: -1px !important;
+}
+#left-menu .subnav, #left-menu .subsubnav, #left-menu .subsubsubnav {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4f4f4f;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    display: none;
+    position: absolute;
+    width: 179px;
+}
+#left-menu .subnav li, #left-menu .subsubnav li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #4f4f4f;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    float: none;
+    height: auto !important;
+    padding: 0;
+}
+#left-menu .subnav li a, #left-menu .subsubnav li a {
+    background: none repeat scroll 0 0 white;
+    color: #000;
+    font-family: verdana;
+    font-size: 11px;
+    font-weight: bold;
+    height: auto;
+    padding: 10px;
+    text-indent: 0;
+    width: 159px;
+}
+#left-menu .subnav li a:hover, #left-menu .subsubnav li {
+    background: none repeat scroll 0 0 #dadada;
+    color: #000;
+}
+#left-menu .subsubnav, #left-menu .subsubsubnav {
+    left: 100% !important;
+    top: -1px !important;
+}
+div.left-boxbanner {
+    border-width: 1px;
+    font-size: 1px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    padding: 1px;
+}
+#rightcolumn {
+    color: #333;
+    display: inline;
+    float: right;
+    margin: 0 10px 0 0;
+    padding: 0;
+    position: relative;
+    width: 160px;
+}
+#rightcolumn .miniblock-content {
+    font-family: verdana;
+    font-size: 11px;
+    line-height: 14px;
+}
+#rightcolumn ul {
+    padding: 15px 5px;
+}
+#content {
+    border-width: 1px;
+    color: #333;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    margin: 0 0 0 10px;
+    min-height: 785px;
+    padding: 0;
+    position: relative;
+    width: 610px;
+}
+#content .big-text {
+    font-size: 14px;
+    line-height: 28px;
+}
+* html #content {
+    height: 785px;
+}
+#content, #rightcolumn {
+    line-height: 18px;
+}
+#content span, #rightcolumn span {
+    line-height: 1.63em;
+}
+#content div.body {
+    margin: 20px;
+}
+#content h1 {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bg_h1.gif");
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    font-family: Trebuchet MS,trebuchet,verdana;
+    font-size: 24px;
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 0 0 20px;
+}
+#content .big-text h1 {
+    font-size: 30px;
+}
+#footer-spacer {
+    clear: both;
+    height: 30px;
+    overflow: auto;
+    position: relative;
+    width: 966px;
+}
+#footer {
+    background-image: url("http://www.smhc.qc.ca/_media/en/../logo_smhc_large.png");
+    background-position: 20px 50%;
+    background-repeat: no-repeat;
+    border-color: #cccacb;
+    border-style: double;
+    border-width: 3px;
+    clear: both;
+    color: #333;
+    height: 119px;
+    margin: 0 8px;
+    overflow: auto;
+    padding-bottom: 10px;
+    position: relative;
+    width: 966px;
+}
+#footer-content {
+    font-size: 90%;
+    line-height: 18px;
+    overflow: auto;
+    padding: 30px 40px 0 130px;
+    width: 440px;
+}
+#footer-content h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.footer-imgs {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.footer-imgs img {
+    float: right;
+    margin-right: 10px;
+}
+.footer-text {
+    float: left;
+    padding-right: 10px;
+}
+.clear {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    clear: both;
+}
+#header, #menu, #left-menu, #left-menu li, .left-boxbanner, #content, .miniblock, .table-events, .table-events td, fieldset {
+    border: 1px solid #cccacb;
+}
+ul.line-menu {
+    clear: both;
+    
+}
+ul.line-menu li {
+    display: inline;
+    list-style-type: none;
+    padding: 0 5px 0 0;
+}
+.miniblock {
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+#content .miniblock {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#content .body .miniblock {
+    margin-left: 0;
+    margin-right: 0;
+}
+.miniblock-content {
+    overflow: hidden;
+    padding: 0 0 10px;
+}
+.miniblock-content li {
+    margin: 0 0 10px;
+    overflow: hidden;
+}
+.miniblock-content li, #content li {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_list.gif");
+    background-position: 2px 5px;
+    background-repeat: no-repeat;
+}
+#content li {
+    line-height: 14px;
+}
+.miniblock-header {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bg_subtitle.gif");
+    background-repeat: repeat-x;
+    font-size: 11px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 18px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+#left-menu.light-border {
+    border-width: 1px 0 0 1px;
+}
+#left-menu.light-border li {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cccacb;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+}
+div.body .sitemap ul {
+}
+div.body .sitemap ul li.p_ {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+div.body .sitemap ul li ul {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+div.body .sitemap ul li ul {
+    margin-top: 10px;
+}
+div.body .sitemap ul li ul li ul {
+    margin-top: 0;
+}
+div.body .sitemap ul li ul li {
+    margin-bottom: 10px;
+}
+div.body .sitemap ul li ul li ul li {
+    margin-bottom: 0;
+}
+.sitemap {
+    margin: 10px 0;
+}
+.sitemap ul {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.sitemap li {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_list.gif");
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+.sitemap li a {
+    font-weight: normal !important;
+}
+.twocolumn {
+    border: medium none;
+    overflow: hidden;
+}
+#homepage .twocolumn .miniblock {
+    height: 175px;
+}
+.miniblock-header {
+    padding: 0 0 0 15px;
+    position: relative;
+}
+.miniblock-header a {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+#content .miniblock-content {
+    padding: 10px !important;
+}
+.twocolumn .miniblock {
+    width: 300px;
+}
+.twocolumn div.right {
+    float: right;
+}
+.twocolumn div.left {
+    float: left;
+}
+h2.fact-title {
+    padding-top: 15px !important;
+}
+.fact-block li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+}
+.faq-block li {
+    line-height: 18px !important;
+    margin: 0;
+}
+.faq-answer-inner p {
+    background-color: #f2f2f2;
+    border: 1px solid #d6d6d6;
+    line-height: 21px !important;
+    margin: 10px 5px 5px 0 !important;
+    padding: 15px;
+}
+#home-faq .faq-answer-inner p {
+    line-height: 18px;
+}
+.table-events {
+    border-width: 1px 0 0 1px !important;
+    color: #000;
+    font-family: verdana;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.table-events td {
+    background-color: #fff;
+    border-width: 0 1px 1px 0 !important;
+    padding: 8px !important;
+}
+.table-events .table-title td {
+    background-color: #80a8db;
+}
+.table-events .table-title-month td {
+    background-color: #c8c8c8;
+}
+.table-events .disabled-row td {
+    background-color: #f3f3f3;
+    color: #b0b0b0;
+}
+.table-events ul {
+    margin-bottom: 0 !important;
+}
+.table-events li {
+    margin-bottom: 10px;
+}
+#content fieldset {
+    border-width: 1px 0 0;
+    margin: 15px 0 0;
+    padding: 15px 0 0;
+}
+#content fieldset p {
+    padding: 10px;
+}
+#content form {
+    line-height: 20px;
+}
+#content .big-text form {
+    line-height: 25px;
+}
+#content form select, #content .input-text, #content .input-textarea {
+    background-color: #f1f1f1;
+    border: 1px solid #b8b8b8;
+    font-family: Verdana !important;
+    font-size: 11px !important;
+    margin: 5px 0;
+    width: 265px;
+}
+#content .big-text form select, #content .big-text .input-text, #content .big-text .input-textarea {
+    font-size: 14px !important;
+}
+#content textarea.input-textarea {
+    height: 120px;
+    width: 355px;
+}
+#content form select {
+    overflow: hidden;
+}
+#content form input.input-text {
+    height: 18px;
+    overflow: hidden;
+    padding: 3px 0 0 3px;
+    width: 260px;
+}
+#content form label {
+    clear: both;
+    display: block;
+    float: left;
+    line-height: 14px;
+    padding-right: 5px;
+    padding-top: 10px;
+    width: 185px;
+}
+#content form div.field {
+    padding-bottom: 15px;
+    padding-top: 5px;
+    width: 380px;
+}
+#content form ul.options, #content form ul.inline-options {
+    margin-top: 5px;
+}
+#content form ul.inline-options {
+    display: block;
+}
+#content form ul.options > li > label {
+    clear: none;
+    display: inline;
+    float: none;
+    line-height: normal;
+    padding: 0;
+    width: auto;
+}
+#content form select.dob {
+    width: 86px;
+}
+#content .big-text form label {
+    line-height: 17px;
+}
+#home-announcement {
+    background-color: #f1f1f1;
+    font-size: 14px;
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+#home-announcement * {
+    line-height: 1.5em;
+}
+#home-announcement h3 {
+    color: #333;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 14px;
+}
+#home-announcement ul.more-link {
+    clear: left;
+}
+* html #home-announcement {
+    height: 1%;
+}
+#home-links ul {
+    display: block;
+    margin: 15px 0;
+    overflow: hidden;
+    padding: 0 15px;
+}
+ul#home-links-rightcol {
+    border-left: 1px solid #cccacb;
+}
+.miniblock-margin {
+    margin: 15px 15px 5px;
+}
+#home-faq ul {
+    margin: 15px;
+}
+#home-links li {
+    margin: 0 0 5px;
+}
+#home-research .miniblock-content, #home-news .miniblock-content, #home-didyouknow .miniblock-content {
+    min-height: 150px;
+}
+#home-news.miniblock.right .miniblock-content ul.more-link {
+    float: right;
+}
+* html #home-research .miniblock-content, * html #home-news .miniblock-content, * html #home-didyouknow .miniblock-content {
+    height: 150px;
+}
+.more-link {
+    padding: 0;
+}
+#rightcolumn .more-link {
+    padding: 0 15px !important;
+}
+#content .more-link {
+    margin-top: 20px;
+}
+.more-link li {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_list_normal.gif") !important;
+    background-position: 2px 7px;
+    background-repeat: no-repeat;
+}
+.more-link li a {
+    font-size: 11px !important;
+    font-weight: normal !important;
+    line-height: 14px !important;
+}
+#home-announcement-img img {
+    border: 1px solid #cccacb;
+    display: block;
+    padding: 1px;
+}
+#home-announcement-img {
+    float: left;
+    padding: 15px 25px 15px 15px !important;
+}
+#careers li {
+    margin-bottom: 5px !important;
+}
+.news-template {
+    line-height: 20px;
+}
+.news-template .relimage {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+#home-announcement-img span, .news-template .relimage span {
+    border-bottom: 1px solid #cccacb;
+    display: block;
+    font-size: 11px;
+    padding: 0 0 3px;
+}
+.text-highlight {
+    background-color: #f7f7f7;
+    margin: 20px 0;
+    padding: 10px;
+}
+.text-highlight label {
+    width: 180px !important;
+}
+#form-captcha {
+    clear: both;
+    height: 100px;
+    overflow: hidden;
+    padding: 45px 0;
+}
+.reference-title {
+    color: #636363;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0 0;
+}
+.languages-checkbox td input {
+    margin-right: 10px;
+}
+#calendar-search {
+    background-color: #f2f2f2;
+    border: 1px solid #d6d6d6;
+    height: 50px;
+    margin: 0 0 10px;
+    padding: 15px 20px;
+}
+#calendar-search form {
+    line-height: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 528px;
+}
+.big-text #calendar-search form {
+    line-height: 19px;
+}
+#calendar-search form div {
+    float: left;
+    margin-right: 10px;
+}
+#calendar-search form div label {
+    float: left;
+    font-weight: bold;
+    padding: 0;
+    width: auto;
+}
+#calendar-search form div select {
+    background-color: #fff;
+    float: left;
+    margin: 0;
+    width: 80px;
+}
+#calendar-search form .hideempty_wrap {
+    clear: both;
+    margin-top: 4px;
+    width: 400px;
+}
+#calendar-search form .submit {
+    border: 0 none;
+    float: right;
+    margin-top: 13px;
+    padding: 0;
+}
+.calendar-header {
+    clear: both;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+}
+.big-text .calendar-header {
+    font-size: 16px;
+    height: 22px;
+}
+.calendar-header h3 {
+    float: left;
+}
+.calendar-header .calendar-header-right {
+    float: right;
+}
+.calendar-header .calendar-header-right {
+    float: right;
+    text-align: right;
+}
+.calendar-header-right .link-next {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_list.gif");
+    background-position: 2px 4px;
+    background-repeat: no-repeat;
+    margin: 0 0 0 5px;
+    padding: 0 0 0 15px;
+}
+.calendar-header-right .link-back {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_list.gif");
+    background-position: right 4px;
+    background-repeat: no-repeat;
+    margin: 0 5px 0 0;
+    padding: 0 12px 0 0;
+}
+.calendar-header-right .link-next, .calendar-header-right .link-back {
+    font-size: 11px;
+}
+.big-text .calendar-header-right .link-next, .big-text .calendar-header-right .link-back {
+    font-size: 14px;
+}
+.corner-links {
+    height: 15px;
+    padding: 5px 20px 0 0;
+}
+.corner-links a {
+    font-weight: bold !important;
+}
+div.body .corner-links {
+    padding: 5px 0 0;
+}
+.corner-links li {
+    float: right;
+}
+.corner-links li a {
+    font-weight: bold !important;
+}
+.body ul.calendar-bullets {
+    list-style: inside none none !important;
+    margin-left: 0 !important;
+}
+.body ul.calendar-bullets li {
+    padding-left: 14px !important;
+}
+.calendar-legend {
+    margin-top: 15px;
+}
+.calendar-legend ul {
+    display: block;
+    height: 20px;
+    padding: 5px 0;
+}
+.calendar-legend li {
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 0 0 0 11px;
+    position: relative;
+}
+.events-programs h2 {
+    height: auto !important;
+}
+.eventweek-days {
+    display: block;
+    font-family: Verdana;
+    height: 20px;
+    padding: 10px 0;
+}
+.event_archives-years {
+    font-size: 14px;
+}
+.eventweek-days a {
+    margin: 0 5px;
+}
+.event_archives-years {
+    font-weight: normal !important;
+    margin: 15px 0;
+}
+#events_archives-list {
+    margin: 30px 0;
+}
+#events_archives-list li {
+    margin: 10px 0;
+}
+#events_archives-list li a {
+    margin: 0 5px 0 0;
+}
+.calendar-bullets li {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    font-weight: normal;
+    padding-left: 14px !important;
+    position: relative;
+    text-indent: 0 !important;
+}
+#content .event .summary {
+    margin-top: 30px;
+}
+.bullet {
+    font-size: 1px;
+    height: 10px;
+    line-height: 10px;
+    width: 10px;
+}
+.calendar-bullets li .bullet {
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+* html .calendar-bullets li .bullet {
+    left: -14px;
+    top: 2px;
+}
+* + html .calendar-bullets li .bullet {
+    top: 2px;
+}
+* html .calendar-legend li .bullet {
+    left: 0;
+    top: 5px;
+}
+* + html .calendar-legend li .bullet {
+    top: 5px;
+}
+.event .meta th {
+    text-align: left;
+    white-space: nowrap;
+    width: 150px;
+}
+.event .meta td {
+    padding: 3px 0 3px 0.5em;
+}
+.event-tooltip {
+    background: none repeat scroll 0 0 #aaa;
+    font-size: 11px;
+    position: absolute;
+    width: 300px;
+    z-index: 100;
+}
+.event-tooltip .inner {
+    background: url("http://www.smhc.qc.ca/_media/bg_tip.gif") repeat-x scroll 0 0 white;
+    border: 1px solid #888;
+    left: -1px;
+    padding: 12px;
+    position: relative;
+    top: -1px;
+}
+.event-tooltip p {
+    margin-bottom: 12px;
+}
+.event-tooltip .meta th {
+    width: auto;
+}
+.event-tooltip .meta th, .event-tooltip .meta td {
+    vertical-align: top;
+}
+.event-tooltip .title {
+    font-size: 12px;
+}
+.event-tooltip .date {
+    display: block;
+    margin-bottom: 12px;
+}
+.event-tooltip .arrow {
+    background: url("http://www.smhc.qc.ca/_media/pointer_tip.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 2px;
+    display: block;
+    font-size: 1px;
+    height: 7px;
+    left: 50%;
+    margin-bottom: -7px;
+    margin-left: -6px;
+    position: absolute;
+    width: 12px;
+}
+* html .event-tooltip .arrow {
+    margin-left: -16px;
+}
+#events-list, #news-list, #stmarys-news-list, #press-release-list {
+    clear: both;
+    margin-bottom: 11px;
+    overflow: auto;
+}
+#events-list .title, #news-list .title, #stmarys-news-list .title, #press-release-list .title, .news-template .title {
+    border-bottom: 1px solid #cccacb;
+    margin-bottom: 10px;
+}
+#events-list li, #news-list li, #stmarys-news-list li, #press-release-list li {
+    line-height: 18px;
+    padding-bottom: 20px;
+}
+#news-list-left {
+    display: inline;
+    float: left;
+    width: 275px;
+}
+#news-list-right {
+    display: inline;
+    float: right;
+    width: 275px;
+}
+table .calendar-bullets li {
+    margin-bottom: 0;
+}
+#row-dob input {
+    font-size: 14px !important;
+    text-indent: 5px;
+}
+.big-text #row-dob input {
+    font-size: 16px !important;
+}
+.submit {
+    border-top: 1px solid #cccacb;
+    overflow: hidden;
+    padding: 30px 0 5px;
+    text-align: right;
+}
+.menu-arrow {
+    background-image: url("http://www.smhc.qc.ca/_media/en/bullet_arrow_grey.gif") !important;
+    background-position: 172px 26px !important;
+    background-repeat: no-repeat !important;
+}
+#joml-interests div {
+    float: left;
+    overflow: hidden;
+    width: 190px;
+}
+#joml-interests label, #media-member label {
+    padding: 0 5px !important;
+}
+#joml-interests td {
+    padding-bottom: 6px;
+    padding-top: 0;
+    vertical-align: middle;
+}
+#media-member {
+    clear: right;
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+}
+.error-message {
+    color: red;
+    display: block;
+    margin-left: 200px;
+}
+.captcha-block {
+    float: left;
+    width: 270px;
+}
+.captcha-block .input-text {
+    width: 120px !important;
+}
+.captcha-block .error-message {
+    margin-left: 25px !important;
+}
+#homepage .miniblock {
+    margin: 0 0 5px !important;
+}
+#homepage .miniblock-content {
+    padding: 0 !important;
+}
+.input-watermark {
+    float: left;
+    margin-right: 10px;
+    width: auto;
+}
+.input-watermark label {
+    color: #aaaaaa;
+    float: left !important;
+    height: auto !important;
+    line-height: normal !important;
+    margin-left: 5px;
+    position: absolute;
+    width: auto !important;
+}
+#row-dob .error-message {
+    margin: 0;
+}
+.body .empty {
+    background: none repeat scroll 0 0 #f3f3f3;
+    border: 1px solid #cccacb;
+    padding: 15px;
+    text-align: center;
+}
+.body .empty p {
+    margin: 0;
+    padding: 0;
+}
+#search-pager {
+    margin: 10px 0;
+}
+#search-results .result {
+    margin: 20px 0;
+}
+#no-results {
+    margin: 20px 0;
+}
+.size-change {
+    padding: 5px 20px 0 0;
+    text-align: right;
+}
+.addthis-button .addthis_toolbox {
+    float: right;
+}
+#content form table.availability {
+    width: 300px;
+}
+#content form table.availability > thead > tr > th, #content form table.availability > tbody > tr > th {
+    font-weight: normal;
+}
+#content form table.availability > tbody > tr > td, #content form table.availability > thead > tr > th.time-of-day {
+    text-align: center;
+    width: 140px;
+}
+#content form#manage-profile-form label {
+    width: 200px;
+}
+#content form#manage-profile-form .login-submit {
+    margin-left: 204px;
+}
+#content fieldset #smhc_student_volunteer_notice {
+    display: none;
+    margin-left: 190px;
+    width: 380px;
+}
+#content fieldset #smhc_student_volunteer_notice h3, #content fieldset #smhc_student_volunteer_notice h4 {
+    font-size: 11px;
+    margin: 15px 0 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+#content fieldset #smhc_student_volunteer_notice h4 {
+    font-weight: normal;
+    line-height: 16px;
+}
+#content fieldset #smhc_student_volunteer_notice p {
+    margin: 20px 0 10px;
+    padding: 0;
+}
+#content fieldset #smhc_student_volunteer_notice li {
+    background-image: none;
+    margin: 8px 0 8px 22px;
+}
+#content fieldset #smhc_student_volunteer_notice table {
+    width: 200px;
+}
+#content fieldset #smhc_student_volunteer_notice table td {
+    font-weight: bold;
+    padding: 0;
+}
+#content fieldset #smhc_student_volunteer_notice address {
+    font-style: normal;
+    margin-left: 100px;
+    margin-top: 6px;
+}
+.faq-answer {
+    display: none;
+    height: auto;
+    width: 560px;
+}
